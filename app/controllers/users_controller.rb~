@@ -1,5 +1,11 @@
 class UsersController < ApplicationController
   def new
+    @title = "Sign up"
   end
+
+  def test 
+    @title = "test"
+  end
+
 
 end
