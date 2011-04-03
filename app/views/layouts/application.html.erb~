@@ -8,7 +8,7 @@
   <body>
     <div class="container">
       <%= render 'layouts/header' %>
-      <section class="square">
+      <section class="round">
         <%= yield %>
       </section>
     </div>

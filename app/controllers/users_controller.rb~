@@ -3,9 +3,4 @@ class UsersController < ApplicationController
     @title = "Sign up"
   end
 
-  def test 
-    @title = "test"
-  end
-
-
 end
